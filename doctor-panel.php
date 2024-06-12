@@ -3,6 +3,7 @@
 include('func1.php');
 
 require_once("include/config.php");
+global $con;
 
 $doctor = $_SESSION['dname'];
 if(isset($_GET['cancel']))
