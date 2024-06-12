@@ -2,7 +2,8 @@
 <?php 
 include('func.php');  
 include('newfunc.php');
-$con=mysqli_connect("localhost","root","","myhmsdb");
+
+require_once("include/config.php");
 
 
   $pid = $_SESSION['pid'];
