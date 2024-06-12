@@ -1,5 +1,9 @@
-<!DOCTYPE html>
 <?php 
+// Włącz wyświetlanie błędów (dla celów debugowania)
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 require_once("include/config.php");
 
 include('newfunc.php');
@@ -36,6 +40,7 @@ if(isset($_POST['docsub1']))
 
 
 ?>
+<!DOCTYPE html>
 <html lang="en">
   <head>
 
