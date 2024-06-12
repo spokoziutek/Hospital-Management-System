@@ -456,7 +456,7 @@ if(isset($_POST['docsub1']))
                 <tbody>
                   <?php 
 
-                    $con=mysqli_connect("localhost","root","","myhmsdb");
+                    require_once("include/config.php");
                     global $con;
 
                     $query = "select * from appointmenttb;";
